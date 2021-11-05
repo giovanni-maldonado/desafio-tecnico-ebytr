@@ -1,6 +1,6 @@
 # Desafio tecnico Ebytr
 
-## Este repositorio é para uma simulação de desafio técnico da Trybe.
+## Este repositorio consiste em uma simulação de desafio técnico da Trybe.
 
 Contexto:
   A aplicação consiste em fazer a criação de uma solução de organização de trabalho para aumentar a produtividade da empresa Ebytr.
@@ -19,4 +19,20 @@ Contexto:
 
 ## Como rodar:
 
-`em construção`
+- Este projeto utiliza MongoDB como banco de dados principal então é preciso ter ele instalado localmente pra rodar o projeto, segue a documentação pra instalação: `https://docs.mongodb.com/manual/installation/`
+- Abra o terminal: `CTRL + ALT + T`
+- Clone o projeto via chave SSH com o comando: `git@github.com:giovanni-maldonado/desafio-tecnico-ebytr.git`
+- Se não tiver uma chave SSH cadastrada ultilize: `https://github.com/giovanni-maldonado/desafio-tecnico-ebytr.git`
+- Após isso vá para a pasta utilizando o terminal com o comando: `cd desafio-tecnico-ebytr`
+
+## Back-End: 
+
+- Ainda seguindo os passos de Como Rodar
+- Com o terminal aberto navegue ate a pasta do projeto com o comando: `cd desafio-tecnico-ebytr`
+- Agora na pasta raiz insira o comando: `cd back-end`
+- Estamos quase la, ainda na pasta raiz insira: `npm install` ou `npm i`
+- Agora a cereja do bolo, insira o comando: `npm start` ou `npm run dev` caso queira rodar com o nodemon e a aplicação back-end está **rodando**
+
+## Front-end:
+
+- Não concluído
